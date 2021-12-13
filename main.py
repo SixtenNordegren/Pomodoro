@@ -54,7 +54,6 @@ def readfile(date_time):
         return int(read[-1][0])
     else:
         return 0
-    
 
 def main():
     ct = datetime.datetime.now()
